@@ -1,0 +1,28 @@
+.top-bar{
+    background-color: darkgray;
+    height: 35px;
+    padding: 20px;
+}
+.title{
+    text-align: left;
+}
+fieldset{
+    display: flex;
+    justify-content: center;
+    width: 70%;
+}
+body{
+    display: grid;
+    align-items: center;
+}
+fieldset section {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+label{
+
+    font-weight: 900;
+}

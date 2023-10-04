@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livros</title>
+    <style>
+    *{
+        margin: 0;
+        box-sizing: border-box;
+      }
+      
+      body {
+          display: grid;
+          gap: 20px;
+          padding: 20px;
+      }
+      
+      #retornar {
+          padding: 20px;
+          background-color: gray;
+      }
+      
+      #section-login {
+          display: grid;
+          gap: 20px;
+      }
+      
+      form {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+      }
+      
+      fieldset div{
+          display: flex;
+          gap: 10px;
+          justify-content: center;
+      }</style>
+</head>
+
+<body>
+    <h1>Fundamentos da web</h1>
+    <p>exercícios</p>
+    <div id="retornar">
+        <a href="./index2.html">retornar</a>
+    </div>
+    <section id="section-login">
+        <h1>Login</h1>
+        <p>Nesta atividade, você deve desnevolver uma tela de contatos de um site. Considere a ntaureza dos campos. Seus
+            dados devem ser enviados numa requição HTTP com método POST para a URL http://httpbin.org.post/</p>
+        <fieldset>
+            <legend>Entre em contato comnosco!</legend>
+            <form action="http://httpbin.org.post/" method="post">
+                <div>
+                    <label for="login">Login</label>
+                    <input type="email" name="login" id="login">
+                </div>
+                <div>
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" id="senha">
+                </div>
+                <div><input type="submit" value="login"></div>
+            </form>
+        </fieldset>
+    </section>
+
+</body>
+
+</html>
