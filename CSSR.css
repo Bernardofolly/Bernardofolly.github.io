@@ -1,0 +1,68 @@
+/* Estilizando a classe topbar */
+.topbar {
+    background-color: #3498db; /* Cor de fundo da barra */
+    padding: 10px 0; /* Espaçamento interno para o conteúdo */
+    text-align: center; /* Alinhamento do texto no centro */
+  }
+  
+  /* Estilizando os links dentro da topbar */
+  .topbar a {
+    text-decoration: none; /* Removendo sublinhado dos links */
+    color: #fff; /* Cor do texto dos links */
+    margin: 0 15px; /* Espaçamento entre os links */
+    font-size: 18px; /* Tamanho da fonte dos links */
+    font-weight: bold; /* Deixa o texto em negrito */
+    text-transform: uppercase; /* Transforma o texto em maiúsculas */
+    transition: color 0.3s; /* Efeito de transição na cor ao passar o mouse */
+  }
+  
+  /* Mudando a cor dos links ao passar o mouse */
+  .topbar a:hover {
+    color: #ff9900;
+  }
+  
+  /* Tag de CSSR para deixar o texto em itálico */
+  .Italico {
+    font-style: italic;
+  }
+
+    /* Tag extra de CSSR para deixar o texto em itálico e branco alinhado ao meio*/
+    .ItalicoBrancoMeio {
+        font-style: italic;
+        color: #fff; /* Cor do texto branca */
+        text-align: center; /* Alinha o texto ao cento */
+      }
+
+  /* Tag de CSSR para estilizar um texto e o colocar no centro da página */
+  .Centro {
+    text-align: center; /* Alinha o texto ao cento */
+  }
+
+  body {
+    background-image: url('https://static.vecteezy.com/system/resources/thumbnails/001/842/936/small/dark-blue-background-in-polygonal-style-vector.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  /* Tag de CSSR para deixar a cor da fonte branca pra conseguir ler com o plano de fundo */
+  .Branco {
+    color: #fff; /* Cor do texto branca */
+  }
+
+  /* Tag de CSSR para estilizar um texto e o colocar no centro da página e o deixar branco*/
+  .CentroBranco {
+    text-align: center; /* Alinha o texto ao cento */
+    color: #fff; /* Cor do texto branca */
+  }
+
+  #centro {
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+  }
+  
+  .centroimg {
+    max-width: 100%; /* Para garantir que a imagem não seja maior que o contêiner */
+    height: auto; /* Mantém a proporção da imagem */
+    /* Outros estilos de imagem, se necessário */
+  }
